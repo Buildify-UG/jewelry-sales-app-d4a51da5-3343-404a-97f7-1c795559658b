@@ -454,6 +454,7 @@ export default function Index() {
             </div>
             <div>
               <h3 className="font-bold text-lg mb-2">Contact Us</h3>
+              <p className="text-amber-100">Ho, Anlokudzi</p>
               <p className="text-amber-100">
                 <a href="mailto:ayedjeisrael45@gmail.com" className="hover:text-white transition-colors">
                   ayedjeisrael45@gmail.com
