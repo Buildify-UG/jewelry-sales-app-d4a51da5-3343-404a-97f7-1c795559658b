@@ -127,7 +127,7 @@ export default function Index() {
                 <span className="text-white font-bold text-lg">✨</span>
               </div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-amber-700 to-amber-900 bg-clip-text text-transparent">
-                LuxeJewels
+                Amazing Grace
               </h1>
             </div>
 
@@ -447,7 +447,7 @@ export default function Index() {
       {/* Footer */}
       <footer className="bg-gradient-to-r from-amber-900 to-amber-800 text-white mt-16 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-amber-100">© 2024 LuxeJewels. Crafted with elegance.</p>
+          <p className="text-amber-100">© 2024 Amazing Grace. Crafted with elegance.</p>
         </div>
       </footer>
     </div>
