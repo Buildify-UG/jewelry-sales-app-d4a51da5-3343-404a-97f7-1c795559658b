@@ -445,9 +445,35 @@ export default function Index() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-amber-900 to-amber-800 text-white mt-16 py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-amber-100">© 2024 Amazing Grace. Crafted with elegance.</p>
+      <footer className="bg-gradient-to-r from-amber-900 to-amber-800 text-white mt-16 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div>
+              <h3 className="font-bold text-lg mb-2">Amazing Grace</h3>
+              <p className="text-amber-100">Crafted with elegance and sophistication.</p>
+            </div>
+            <div>
+              <h3 className="font-bold text-lg mb-2">Contact Us</h3>
+              <p className="text-amber-100">
+                <a href="mailto:ayedjeisrael45@gmail.com" className="hover:text-white transition-colors">
+                  ayedjeisrael45@gmail.com
+                </a>
+              </p>
+              <p className="text-amber-100">
+                <a href="tel:0540929660" className="hover:text-white transition-colors">
+                  0540929660
+                </a>
+              </p>
+            </div>
+            <div>
+              <h3 className="font-bold text-lg mb-2">Hours</h3>
+              <p className="text-amber-100">Mon - Fri: 9AM - 6PM</p>
+              <p className="text-amber-100">Sat - Sun: 10AM - 5PM</p>
+            </div>
+          </div>
+          <div className="border-t border-amber-700 pt-6 text-center">
+            <p className="text-amber-100">© 2024 Amazing Grace. Crafted with elegance.</p>
+          </div>
         </div>
       </footer>
     </div>
